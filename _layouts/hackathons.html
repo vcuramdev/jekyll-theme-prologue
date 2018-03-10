@@ -8,7 +8,7 @@ layout: default
 	{%- if page.content != "" -%}
 		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
 	{%- endif -%}
-	<div>{{- page.content -}}</div>
+	<div>{{- content -}}</div>
 	<!-- Hackathons List -->
 	{%- for _post in _hackathons -%}
 		{% if _post.hide -%}
