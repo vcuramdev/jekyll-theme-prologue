@@ -490,6 +490,15 @@
 		}
 	}
 
+	.icon.emphasis {
+		width: 2.15em;
+		color: #75828a;
+
+		&:before {
+			font-size: 1.65em;
+		}
+	}
+
 /* Header */
 
 	#header {
