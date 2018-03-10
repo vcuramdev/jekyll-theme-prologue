@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign _hackathons = site.hackathons | sort: 'date' | reverse -%}
+{%- assign _hackathons = site.talks | sort: 'date' | reverse -%}
 {%- include header.html scrolly_nav=_hackathons -%}
 <!-- Main -->
 <div id="main">
