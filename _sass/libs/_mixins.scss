@@ -4,6 +4,7 @@
 @mixin icon($content: false, $where: before) {
 
 	text-decoration: none;
+	font-family: "Font Awesome 5 Free";
 
 	&:#{$where} {
 
@@ -13,7 +14,6 @@
 
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
-		font-family: "Font Awesome 5 Free";
 		font-style: normal;
 		font-weight: 900;
 		text-transform: none !important;
